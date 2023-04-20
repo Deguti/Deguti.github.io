@@ -1,0 +1,61 @@
+.regresar{
+    font-size: 25px;
+    text-align: right;
+}
+body{
+    background-image: url(../fondo1.jpg);
+    text-align: center;
+}
+
+.logotipo img{
+    width: 500px;  
+}
+.container{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2{
+    background-color:#c6a3cd ;
+    border-radius: 50px;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    border: 2px solid purple;
+    margin-top: 0;
+}
+div{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 55px;
+}
+img:hover{
+    padding: 5px;
+}
+img{
+   width: 300px;
+   height: 150px; 
+   border: 4 white;
+   border-radius: 10px;
+}
+figcaption p{
+    border-radius: 8px;
+    font-family: verdana; 
+    font-size:15px; 
+    background-color: #c6a3cd;   
+}
+.pie{
+    color:purple;
+    font-size:25px;
+    background-color: #c6a3cd;
+    border-radius: 20px;
+}
+.pie i{
+    font-size:40px; 
+    color:purple;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trueques y cambios</title>
+    <meta name="autor" content="Derick Gutierrez Mejias">
+    <meta name="descripcion" content="trueques, intercambios, venta, mas">
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css">
+	<link rel="icon" href="icono.png" sizes="32x32" type="imagenes/png">
+    <link rel="stylesheet" href="css/truequesCambios.css">
+    <script src="lib/jquery.js" type="text/javaScript"></script>
+    <script src="dist/jquery.validate.js" type="text/javaScript"></script>
+    <script src="js/index.js" type="text/javaScript" defer async></script> 
+</head> 
+<body background="fondo1.jpg">
+    <figure class="logotipo"> <!--Logotipo-->
+	    <a href="Tienda_Marily_index.html">
+            <img src="logotipo.png" alt="Logotipo de Tienda Marily">
+        </a>
+	</figure>
+    <section class="regresar"><!--Regresar-->
+    <a href="Tienda_Marily_index.html"><i class="fa-sharp fa-solid fa-arrow-rotate-left">&nbsp;Regresar a Tienda Marily</i></a>
+    </section>
+    <h2>Formulario para intercambio de productos</h2>
+        <br> 
+    <section ><!--formulario de envio-->
+        <form id="trueques-form" action="mailto:marialidiagutierrezmejia@gmail.com" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>Trueques e intercambios</legend>
+                <label for="nombre">Escribe tu nombre</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="correo">Correo electronico</label>
+                <input type="email" id="correo" name="correo">
+                <label for="codigoArticulo">Codigo del articulo de nuestra tienda</label>
+                <input type="text" id="codigoArticulo" name="codigoArticulo">
+                <label for="descripcion">Descripcion de tu articulo</label>
+                <input type="text" id="descripcion" name="descripcion">
+                <label for="Mensaje"> Mensaje adicional</label>
+                <input type="text" id="mensaje" name="mensaje">
+                <label for="imagen">Carga una imagen de tu artículo</label>
+                <input type="file" id="imagen" name="imagen">
+                <input type="submit" value="Enviar" class="button">
+                <input type="reset" value="Resetear" class="button">
+            </fieldset>
+        </form>
+    </section>
+
+    <br><br>           
+	<footer class="pie"><!--redes sociales numeros de telefono-->
+		<p> Siguenos</p>
+		 <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+		 <a href="https://www.instragram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+	</footer>
+</body>
+</html>

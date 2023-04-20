@@ -1,0 +1,158 @@
+body{
+    background-image: url(../fondo1.jpg);
+    text-align: center;
+}
+
+.logotipo img{
+    width: 500px;  
+}
+.container{
+    align-items: center;
+}
+h2{
+    
+    background-color:#c6a3cd ;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    border: 2px solid purple;
+    margin-top: 0;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2px;
+    width: 100%;
+} 
+section article {
+    margin: 10px;
+    background-color: #91a6c3;
+    padding: 6px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    width: 320px;
+    height: 250px;
+}
+img{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.navegador {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.navegador ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+  
+.navegador a {
+    width: 300px;
+    height: 30px;
+    display: block;
+    padding: 10px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    text-decoration: none;
+    color: purple;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: #c6a3cd;
+    margin: 10px;
+}
+  
+.navegador a:hover {
+    background-color: #ccc;
+    color: black;
+}
+div{
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 10px;
+}
+div:hover{
+    padding: 5px;
+}
+.resena{
+    color: purple;
+    font-size:25px;
+}
+.pie{
+    color:purple;
+    font-size:25px;
+}
+.pie i{
+    font-size:40px; 
+    color:purple;
+}
+.caja1{
+    background-image: url(../busters.png);
+    background-size: cover;
+    background-position: center center;
+    animation: changeImage 8s infinite;
+}
+@keyframes changeImage {
+    0% {
+      background-image: url(../busters.png);
+    }
+    100% {
+      background-image: url(../pirexVidrio.png);
+    }
+}
+.caja2{
+    background-image: url(../busters.png);
+    background-size: cover;
+    background-position: center center;
+    animation: changeImage2 8s infinite;
+} 
+@keyframes changeImage2 {
+    0% {
+      background-image: url(../blusaAzul.png);
+    }
+    100% {
+      background-image: url(../CamisaHAzul.png);
+    }
+}
+.caja3{
+    background-image: url(../busters.png);
+    background-size: cover;
+    background-position: center center;
+    animation: changeImage3 8s infinite;
+} 
+@keyframes changeImage3 {
+    0% {
+      background-image: url(../avonperlas.jfif);
+    }
+    100% {
+      background-image: url(../Logotipo.png);
+    }
+}
+.caja4{
+    background-image: url(../busters.png);
+    background-size: cover;
+    background-position: center center;
+    animation: changeImage4 8s infinite;
+} 
+@keyframes changeImage4 {
+    0% {
+      background-image: url(../zapatosRosa.png);
+    }
+    100% {
+      background-image: url(../zapatosNegros.png);
+    }
+}
+  
+  
+  

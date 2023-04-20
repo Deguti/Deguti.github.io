@@ -1,0 +1,120 @@
+.regresar{
+    font-size: 25px;
+    text-align: center;
+}
+body{
+    background-image: url(../fondo1.jpg);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+h2{
+    background-color:#c6a3cd ;
+    border-radius: 50px;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    border: 2px solid purple;
+    margin-top: 0;
+}
+.logotipo img{
+    width: 500px;  
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+section {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+
+form {
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+form fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+form legend {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="file"],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-right: 10px;
+}
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+  background-color: #3e8e41;
+}
+#mensaje{
+    height: 200px;
+}
+#codigoArticulo{
+    width: 200px;
+}
+#descripcion{
+    height: 200px;
+}
+.pie{
+    color:purple;
+    font-size:25px;
+    border-radius: 20px;
+}
+.pie i{
+    font-size:40px; 
+    color:purple;
+}
+@media screen and (max-width: 768px) {
+  section {
+    height: auto;
+    padding: 20px;
+  }
+  
+  form {
+    max-width: none;
+    box-shadow: none;
+  }
+}

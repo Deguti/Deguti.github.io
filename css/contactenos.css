@@ -1,0 +1,98 @@
+.regresar {
+    font-size: 25px;
+    justify-content: center;
+}
+body{
+    background-image: url(../fondo1.jpg);
+    text-align: center;
+}
+.logotipo img{
+    width: 500px;  
+}
+#mensaje{
+    height: 200px;
+}
+section {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+form {
+    width: 40%;
+    margin-top: 15px;
+}
+fieldset{
+    border: 2px solid purple;
+    padding: 20px;
+    border-radius: 10px;
+}
+legend{
+    font-size:20px ;
+    font-weight: bold;
+    color: purple;
+}
+aside {
+    width: 50%;
+    padding: 20px;
+    font-size: 18px;
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: purple;
+    font-size: 15px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #555;
+}
+input[type="submit"] {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+input[type="reset"] {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+h2{
+    color:purple; font-size: 35px;
+}
+i{
+    font-size:35px; color:purple;
+}
+p{
+    padding: 20px;
+}
+.pie{
+    color:purple;
+    font-size:25px;
+    background-color: #c6a3cd;
+    border-radius: 20px;
+}
+.pie i{
+    font-size:40px; 
+    color:purple;
+}

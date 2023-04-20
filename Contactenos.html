@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Derick Gutierrez Mejias">
+    <meta name="descripcion" content="Telefono, ubicacion, redes sociales">
+    <title>Contactenos</title>
+    <link rel="stylesheet" href="css/contactenos.css">
+    <link rel="stylesheet" href="fontawesome-free-6.3.0-web/css/all.min.css">
+	<link rel="icon" href="icono.png" sizes="32x32" type="imagenes/png">
+    <script src="lib/jquery.js" type="text/javaScript"></script>
+    <script src="dist/jquery.validate.js" type="text/javaScript"></script>
+    <script src="js/index.js" type="text/javaScript" defer async></script>  
+</head>
+<body>
+    <figure class="logotipo"> <!--Logotipo-->
+	    <a href="Tienda_Marily_index.html">
+            <img src="logotipo.png" alt="Logotipo de Tienda Marily">
+        </a>
+	</figure>
+	<br><br><br>
+    <section class="regresar"><!--Regresar-->
+        <a href="Tienda_Marily_index.html"><i class="fa-sharp fa-solid fa-arrow-rotate-left">&nbsp;Regresar a Tienda Marily</i></a>
+    </section>
+    <br><br> 
+    <section><!--formulario de envio-->
+        <form id="contact-Form" action="mailto:marialidiagutierrezmejia@hotmail.com" method="post" enctype="text/plain">
+            <fieldset>
+                <legend>Contactanos</legend>
+                <label for="nombre">Escribe tu nombre</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="correo">Correo electronico</label>
+                <input type="email" id="correo" name="correo">
+                <label for="asunto">Asunto</label>
+                <input type="text" id="asunto" name="asunto">
+                <label for="mensaje"> Escribe tu mensaje</label>
+                <input type="text" id="mensaje">
+                <input type="submit" value="Enviar" class="submit">
+                <input type="reset" value="Resetear" class="reset">
+            </fieldset>
+        </form>
+        <aside>
+            <h2>Ponte en contacto con nosotros sera un gusto atenderte.</h2>
+            <p>
+                <a href="mailto:marialidiagutierrezmejias@hotmail.com" target="_blank"><i class="fa-solid fa-envelope"> &nbsp; tiendamarily@gmail.com</i></a>
+            </p>
+            <p>
+                <i class="fa-solid fa-phone"> &nbsp;Telefono:8423-2558</i>
+            </p>
+            <p>
+                <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"> &nbsp; @tiendamarily</i></a> 
+            </p>
+            <p>
+                <a href="https://www.google.com/maps/@10.314975,-84.4183304,16.32z?authuser=0" target="_blank"><i class="fa-solid fa-location-dot">&nbsp; Urb. La isla 100 antes del super roype</i></a> 
+            </p> 
+        </aside>
+    </section>
+    <br><br>            
+	<footer class="pie"><!--redes sociales numeros de telefono-->
+		<p> Siguenos</p>
+		 <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+		 <a href="https://www.instragram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+	</footer>
+</body>
+</html>

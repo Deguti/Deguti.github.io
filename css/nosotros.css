@@ -1,0 +1,28 @@
+.regresar{
+    font-size: 25px;
+    text-align: center;
+}
+body{
+    background-image: url(../fondo1.jpg);
+    text-align: center;
+}
+
+.logotipo img{
+    width: 500px;  
+}
+.pie{
+    color:purple;
+    font-size:25px;
+    background-color: #c6a3cd;
+    border-radius: 20px;
+}
+.pie i{
+    font-size:40px; 
+    color:purple;
+}
+p{
+    font-size: 30px;
+}
+h2{
+    font-size: 55px;
+}
